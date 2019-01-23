@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>youValue</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: honeydew">
+    <header>
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <h1 id="titulo"> youValue </h1>
+                    </div>
+
+
+
+
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                        <!-- Brand -->
+                        <a class="navbar-brand" href="index.html">
+                            <img src="imagenes/logoo.png" alt="Logo" style="width:50px;">
+                        </a>
+
+                        <!-- Toggler/collapsibe Button -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Navbar links -->
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="principal.html">Inicio</a>
+                                    <!-- Dropdown -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                        Lugares
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Todos</a>
+                                        <a class="dropdown-item" href="#">Ocio</a>
+                                        <a class="dropdown-item" href="#">Resturantes</a>
+                                        <a class="dropdown-item" href="#">Deportes</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Añadir lugar</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="login.html">Cerrar Sesion</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-sm-12" style="text-align:center">
+            <h1> Contacta con nosotros</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="row" style="padding:15px;">
+        <div class="col-sm-8">
+            <form accept-charset="UTF-8" role="form">
+                <fieldset>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Nombre" name="name" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="E-mail" name="email" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comentario:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-lg btn-block" type="button" id="enviar" data-toggle="modal" data-target="#myModal" value="Login">Enviar</button><br>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Enviado!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Gracias por enviar tu comentario</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <footer class="container-fluid">
+        <div class="row well" style="background-color:#85D595; padding: 12px">
+            <div class="col-md-3 col-sm-6 col-xs-4">
+                <address>
+                    <h3> youValue </h3>
+                    Avda La Marxadella n5
+                </address>
+                <a href="https://www.google.com/maps/place/Av.+la+Marxadella,+5,+46900+Torrente,+Valencia/@39.4268949,-0.4807143,17z/data=!3m1!4b1!4m5!3m4!1s0xd6051bccb563cc7:0x638c164c9e06297d!8m2!3d39.4268949!4d-0.4785256">
+                    <button type="button" class="btn btn-primary"> Ver en GoogleMaps </button></a>
+            </div>
+            <div class="col-md-3 col-sm-2 col-xs-4">
+                <h3> Contacto </h3>
+                Tel: 123456789 <br>
+                <a class="link" href="mailto:adri9ps@gmail.com" title="adri9ps@gmail.com"> adri9ps@gmail.com</a><br />
+
+            </div>
+            <div class="col-md-3 col-sm-2 col-xs-4">
+                <h3> Redes Sociales </h3>
+                Twitter <br />
+                Facebook <br />
+                Instagram <br />
+            </div>
+            <div class="col-md-3 hidden-xs col-sm-2">
+                <h3> Sobre Nosotros </h3>
+                <p> Web diseñada por Adrián Poveda Sanchis </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                &copy; youValue, 2019
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+  $('#enviar').trigger('focus')
+})
+</script>
+
+
+</html>
