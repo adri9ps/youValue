@@ -27,7 +27,7 @@
           <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="index.html">
-              <img src="imagenes/logoo.png" alt="Logo" style="width:50px;">
+              <img src="imagenes/logoo.png" alt="Logo de la empresa" style="width:50px;">
             </a>
 
             <!-- Toggler/collapsibe Button -->
@@ -42,7 +42,7 @@
                   <a class="nav-link" href="principal.html">Inicio</a>
                   <!-- Dropdown -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">
                     Lugares
                   </a>
                   <div class="dropdown-menu">
@@ -58,7 +58,7 @@
 
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop2" data-toggle="dropdown">
                     Idioma
                   </a>
                   <div class="dropdown-menu">
@@ -82,7 +82,7 @@
   <div class="row" style="margin:5px">
     <div class="col-sm-4" style="background-color:#8ED8DD;">
       <div class="container" style="text-align:center;padding: 5px">
-        <img class="img-responsive" src="https://alcoi.lasalle.es/wp-content/uploads/2016/11/cropped-estrella.png">
+        <img class="img-responsive" alt="imagen de una estrella amarilla" src="https://alcoi.lasalle.es/wp-content/uploads/2016/11/cropped-estrella.png">
         <div class="text">
           <h1> Las mejores opiniones de la web</h1>
           <button id="enviar1" data-toggle="modal" data-target="#myModal1" class="btn btn-primary">+ info </button>
@@ -91,7 +91,7 @@
     </div>
     <div class="col-sm-4" style="background-color:honeydew;">
       <div class="container" style="text-align:center;padding: 5px">
-        <img class="img-responsive" src="https://images.vexels.com/media/users/3/143436/isolated/preview/d9be9586ae36ea50337870fec296eb79-lupa-de-dibujos-animados-de-vidrio-by-vexels.png">
+        <img class="img-responsive" alt="imagen de una lupa" src="https://images.vexels.com/media/users/3/143436/isolated/preview/d9be9586ae36ea50337870fec296eb79-lupa-de-dibujos-animados-de-vidrio-by-vexels.png">
         <div class="text">
           <h1> Encuentra los mejores lugares para ti </h1>
           <button id="enviar2" data-toggle="modal" data-target="#myModal2" class="btn btn-primary">+ info </button>
@@ -100,7 +100,7 @@
     </div>
     <div class="col-sm-4" style="background-color:#8ED8DD;">
       <div class="container" style="text-align:center;padding: 5px">
-        <img class="img-responsive" src="https://images.vexels.com/media/users/3/147918/isolated/preview/c5bcf317783348547468cdc82afe9c6d-foto-camara-vector-by-vexels.png">
+        <img class="img-responsive" alt="imagen de una cámara de fotos" src="https://images.vexels.com/media/users/3/147918/isolated/preview/c5bcf317783348547468cdc82afe9c6d-foto-camara-vector-by-vexels.png">
         <div class="text">
           <h1> Añade tus propios lugares </h1>
           <button id="enviar3" data-toggle="modal" data-target="#myModal3" class="btn btn-primary">+ info </button>
@@ -108,22 +108,23 @@
       </div>
     </div>
   </div>
-  </div>
+
 
   <div class="row" style="margin-top:50px">
     <div class="col-sm-12" style="text-align:center">
       <hr>
       <h1>Video informativo </h1>
       <hr>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/CoJvt7HrYUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CoJvt7HrYUE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
   </div>
 
   <footer class="container-fluid">
     <div class="row well" style="background-color:#85D595; padding: 12px">
       <div class="col-md-3 col-sm-6">
+        <h3> youValue </h3>
         <address>
-          <h3> youValue </h3>
           Avda La Marxadella n5
         </address>
         <a href="https://www.google.com/maps/place/Av.+la+Marxadella,+5,+46900+Torrente,+Valencia/@39.4268949,-0.4807143,17z/data=!3m1!4b1!4m5!3m4!1s0xd6051bccb563cc7:0x638c164c9e06297d!8m2!3d39.4268949!4d-0.4785256">
@@ -153,94 +154,97 @@
     </div>
   </footer>
 
-        <!-- Modal 1 -->
-     <!-- modal -->
-     <div class="modal" tabindex="-1" role="dialog" id="myModal1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Las mejores opiniones de la web!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p> Aquí encontrarás las mejores opiniones de la web sobre cualquier tipo de lugar.
-                Espero que disfruteis.
-              Gracias por estar aquí. </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
 
-        <!-- Modal 2 -->
-     <!-- modal -->
-     <div class="modal" tabindex="-1" role="dialog" id="myModal2">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Encuantra los mejores lugares para ti!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>  Aquí encontrarás las mejores opiniones de la web sobre cualquier tipo de lugar.
-                  Espero que disfruteis.
-                Gracias por estar aquí. </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- Scripts -->
+  <script>
+    $('#myModal1').on('shown.bs.modal', function () {
+      $('#enviar1').trigger('focus')
+    })
 
-        <!-- Modal 3 -->
-     <!-- modal -->
-     <div class="modal" tabindex="-1" role="dialog" id="myModal3">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Añade tus propios lugares!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Aquí encontrarás las mejores opiniones de la web sobre cualquier tipo de lugar.
-                  Espero que disfruteis.
-                Gracias por estar aquí.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
+
+
+    $('#myModal2').on('shown.bs.modal', function () {
+      $('#enviar2').trigger('focus')
+    })
+
+
+    $('#myModal3').on('shown.bs.modal', function () {
+      $('#enviar3').trigger('focus')
+    })
+  </script>
+
+  <!-- Modal 1 -->
+  <!-- modal -->
+  <div class="modal" tabindex="-1" role="dialog" id="myModal1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Las mejores opiniones de la web!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Aquí encontrarás las mejores opiniones de la web sobre cualquier tipo de lugar.
+            Espero que disfruteis.
+            Gracias por estar aquí. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <!-- modal -->
+  <div class="modal" tabindex="-1" role="dialog" id="myModal2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Encuantra los mejores lugares para ti!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Aquí encontrarás las mejores opiniones de la web sobre cualquier tipo de lugar.
+            Espero que disfruteis.
+            Gracias por estar aquí. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <!-- modal -->
+  <div class="modal" tabindex="-1" role="dialog" id="myModal3">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Añade tus propios lugares!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Aquí encontrarás las mejores opiniones de la web sobre cualquier tipo de lugar.
+            Espero que disfruteis.
+            Gracias por estar aquí.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
 
-<script>
-    $('#myModal1').on('shown.bs.modal', function () {
-      $('#enviar1').trigger('focus')
-    })
-    </script>
 
-<script>
-    $('#myModal2').on('shown.bs.modal', function () {
-      $('#enviar2').trigger('focus')
-    })
-    </script>
-
-<script>
-    $('#myModal3').on('shown.bs.modal', function () {
-      $('#enviar3').trigger('focus')
-    })
-    </script>
 
 </html>
